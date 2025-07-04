@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skillsy Beta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to <span>Skillsy</span> Beta</h1>
+      <p>Your tiny guide to tech clarity. One step at a time.</p>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>Choose your starting point:</h2>
+        <p>What tech path are you curious about? Pick one and see a beginner-friendly roadmap.</p>
+        <div class="buttons">
+          <button onclick="showRoadmap('backend')">Backend Developer</button>
+          <button disabled>Frontend Developer</button>
+          <button disabled>Data Scientist</button>
+          <button disabled>Cybersecurity</button>
+        </div>
+      </section>
+
+      <section id="roadmap" class="roadmap hidden">
+        <!-- Dynamic content loads here -->
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with brain fuel by Mrs. Logic Brain 🧠</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
