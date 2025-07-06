@@ -25,7 +25,19 @@ function showRoadmap(path) {
       </ul>
       <p class="quote">"Frontend is where logic meets beauty. And where centering divs builds character."</p>
     `;
-  }
+  } else if (path === "dataSc") {
+  content = `
+    <h3>Data Scientist Roadmap 📊</h3>
+    <ul>
+      <li>📌 Master Python (your new best friend)</li>
+      <li>📌 Learn data libraries: NumPy, Pandas, Matplotlib</li>
+      <li>📌 Understand statistics & data analysis basics</li>
+      <li>📌 Explore Machine Learning with Scikit-learn</li>
+      <li>📌 Build projects: data dashboards, predictions, etc.</li>
+    </ul>
+    <p class="quote">"Data tells stories. Your job is to translate."</p>
+  `;
+}
   roadmapSection.innerHTML = content;
   roadmapSection.classList.remove("hidden");
 }
