@@ -5,7 +5,7 @@ function showRoadmap(path) {
     content = `
       <h3>Backend Developer Roadmap 🚀</h3>
       <ul>
-        <li>📌 Learn Git & GitHub (look who already did this!)</li>
+        <li>📌 Learn Git & GitHub </li>
         <li>📌 Learn a backend language (Python, Node.js, Java, etc.)</li>
         <li>📌 Understand how servers and APIs work</li>
         <li>📌 Learn databases (start with SQL)</li>
@@ -36,6 +36,19 @@ function showRoadmap(path) {
       <li>📌 Build projects: data dashboards, predictions, etc.</li>
     </ul>
     <p class="quote">"Data tells stories. Your job is to translate."</p>
+  `;
+}
+else if (path === "cyber") {
+  content = `
+    <h3>Cybersecurity Roadmap 🔐</h3>
+    <ul>
+      <li>📌 Learn Networking fundamentals (TCP/IP, DNS, Firewalls)</li>
+      <li>📌 Master Linux basics </li>
+      <li>📌 Study system vulnerabilities & exploits</li>
+      <li>📌 Learn cybersecurity tools: Wireshark, Nmap, Metasploit</li>
+      <li>📌 Explore ethical hacking, pen testing, and securing systems</li>
+    </ul>
+    <p class="quote">"Cybersecurity is 90% curiosity, 10% caffeine... and 100% paranoia."</p>
   `;
 }
   roadmapSection.innerHTML = content;
